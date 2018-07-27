@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-file-compression",
+  "version": "1.0.0",
+  "description": "Cordova plugin for any file compression",
+  "cordova": {
+    "id": "cordova-plugin-file-compression",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nayyarjamal1/cordova-plugin-file-compression.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "author": "Nayyar Jamal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nayyarjamal1/cordova-plugin-file-compression/issues"
+  },
+  "homepage": "https://github.com/Nayyarjamal1/cordova-plugin-file-compression#readme"
+}
