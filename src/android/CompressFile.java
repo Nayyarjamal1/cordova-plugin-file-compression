@@ -27,6 +27,8 @@ import java.io.IOException;
  */
 public class CompressFile extends CordovaPlugin {
 
+    String TAG = "Nayyar";
+    
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         if (action.equals("coolMethod")) {
@@ -38,6 +40,10 @@ public class CompressFile extends CordovaPlugin {
             String folderPath = args.getString(1);
             int compressionSize = args.getInt(2);
 
+            Log.d(TAG, "Message is ===> " + message);
+            Log.d(TAG, "folderPath is ===> " + folderPath);
+            Log.d(TAG, "compressionSize is ===> " + compressionSize);
+            
             //compressionSize
             if(compressionSize == 0){
                 compressionSize = 80;

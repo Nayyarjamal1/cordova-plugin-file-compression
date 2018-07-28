@@ -26,12 +26,12 @@
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="CompressFile">
-                <param name="android-package" value="com.nayyar.cordova.compressFile.CompressFile" />
+                <param name="android-package" value="com.nayyar.cordova.CompressFile.CompressFile" />
             </feature>
         </config-file>
         
         <config-file parent="/*" target="AndroidManifest.xml"></config-file>
         
-        <source-file src="src/android/CompressFile.java" target-dir="src/com/nayyar/cordova/compressFile" />
+        <source-file src="src/android/CompressFile.java" target-dir="src/com/nayyar/cordova/CompressFile" />
     </platform>
 </plugin>
