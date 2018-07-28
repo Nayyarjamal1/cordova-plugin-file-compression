@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-file-compression",
-  "version": "1.0.0",
+  "version": "1.0.13",
   "description": "Cordova plugin for any file compression",
   "cordova": {
     "id": "cordova-plugin-file-compression",
